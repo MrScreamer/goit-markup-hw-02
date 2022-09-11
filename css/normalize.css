@@ -1,0 +1,11 @@
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: var(--roboto);
+}
+
+li {
+    list-style: none;
+}

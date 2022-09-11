@@ -1,27 +1,32 @@
+/* general */
 :root {
 --blue: #2196F3;
 --main-black: #212121;
 --main-grey: #757575;
 --main-white: #FFFFFF;
 
+--grey-bg: #2F303A;
+
 --raleway: 'Raleway', sans-serif;
 --roboto: 'Roboto', sans-serif;
 }
 
-a {
-    text-decoration: none;
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-black);
 }
 
-body {
-    font-family: var(--roboto);
-}
-
-li {
-list-style: none;
-}
-
+/* Header */
 .logo {
     font-family: var(--raleway);
+    font-weight: 700;
+    font-size: 26px;    
+    line-height: 1.19;
+    letter-spacing: 0.03em;
 }
 
 .logo-blue {
@@ -48,6 +53,115 @@ list-style: none;
 
 .contact-list-item>a:hover,
 .contact-list-item>a:focus {
-        color: var(--blue);
-            cursor: pointer;
+    color: var(--blue);
+    cursor: pointer;
+}
+
+.nav > ul > li {
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    font-size: 14px;
+}
+
+/* MAIN */
+
+/* Hero section */
+
+.hero {
+    background: var(--grey-bg);
+}
+
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--main-white);
+}
+
+.hero-button {
+background-color: var(--blue);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+width: 216px;
+height: 50px;
+border-radius: 4px;
+color: var(--main-white);
+font-weight: 700;
+font-size: 16px;
+line-height: 1.87;
+letter-spacing: 0.06em;
+}
+
+/* descr section */
+
+.descr-list-item > h3 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--main-black);
+}
+
+.descr-list-item > p {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;   
+    color: var(--main-grey);
+}
+
+/* team section */
+
+.team {
+    background: #F5F4FA;
+}
+
+.team-item > h3 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-black);
+}
+
+.team-item > p {
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-grey);
+}
+
+/* Footer */
+
+.logo-white {
+    color: var(--main-white);
+}
+
+.footer {
+    background: var(--grey-bg);
+}
+
+.footer-list-item > a {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+.color-white {
+    color: var(--main-white);
+}
+
+.color-grey {
+    color: var(--main-grey)
+}
+
+.color-grey:focus,
+.color-grey:hover {
+    color: var(--blue);
+    cursor: pointer;
 }
