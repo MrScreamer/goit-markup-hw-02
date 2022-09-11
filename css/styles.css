@@ -1,0 +1,53 @@
+:root {
+--blue: #2196F3;
+--main-black: #212121;
+--main-grey: #757575;
+--main-white: #FFFFFF;
+
+--raleway: 'Raleway', sans-serif;
+--roboto: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: var(--roboto);
+}
+
+li {
+list-style: none;
+}
+
+.logo {
+    font-family: var(--raleway);
+}
+
+.logo-blue {
+    color: var(--blue);
+}
+
+.logo-black {
+    color: var(--main-black);
+}
+
+.nav-list-link {
+    color: var(--main-black);
+}
+
+.nav-list-link:hover,
+.nav-list-link:focus {
+    color: var(--blue);
+    cursor: pointer;
+}
+
+.contact-list-item > a {
+    color: var(--main-grey);
+}
+
+.contact-list-item>a:hover,
+.contact-list-item>a:focus {
+        color: var(--blue);
+            cursor: pointer;
+}
