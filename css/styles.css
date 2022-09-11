@@ -185,7 +185,7 @@ letter-spacing: 0.06em;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--main-black);
-    font-family: var(--roboto);
+    font-family: inherit;
 }
 
 .prtf-menu-list-item>button:hover,
